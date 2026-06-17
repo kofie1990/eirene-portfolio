@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section id="about" className="py-24 md:py-32 bg-background relative border-t border-white/5 mt-16">
+    <section id="about" className="py-24 md:py-32 bg-background relative border-t border-foreground/5 mt-16">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24 items-center">
           <motion.div
@@ -20,11 +20,11 @@ export default function About() {
             <h3 className="text-xl md:text-2xl lg:text-3xl mb-8 leading-tight font-serif">
               <span className="text-accent italic">Serving with purpose.</span>
             </h3>
-            <div className="space-y-6 text-foreground/80 font-light text-lg leading-relaxed">
+            <div className="space-y-6 text-foreground font-light text-lg leading-relaxed">
               <p>Hi, I&apos;m Eirene Nana Ama Serwaa Adjei.</p>
               <p>
                 I&apos;m a communications professional, entrepreneur, creative
-                strategist, and believer passionate about helping people and
+                strategist, and believer, passionate about helping people and
                 brands communicate with clarity, confidence, and authenticity.
               </p>
               <p>

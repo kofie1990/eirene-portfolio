@@ -27,7 +27,7 @@ export default function AcademicProfessionalJourneyPage() {
           className="grid grid-cols-1 md:grid-cols-12 gap-12"
         >
           {/* Left Column - Intro */}
-          <div className="md:col-span-5 text-xl font-light leading-relaxed text-foreground/90 font-serif italic">
+          <div className="md:col-span-5 text-xl font-light leading-relaxed text-foreground font-serif italic">
             <p>
               My academic and professional journey sits at the intersection of
               communication, leadership, administration, and international
@@ -40,27 +40,27 @@ export default function AcademicProfessionalJourneyPage() {
 
             {/* Academic */}
             <div>
-              <h2 className="text-sm uppercase tracking-widest text-accent font-semibold mb-6 pb-2 border-b border-white/10">
+              <h2 className="text-sm uppercase tracking-widest text-accent font-semibold mb-6 pb-2 border-b border-foreground/10">
                 Education
               </h2>
               <div className="space-y-6">
                 <div>
                   <h3 className="font-serif text-xl mb-1">Master&apos;s degree in International Relations and Diplomacy</h3>
-                  <p className="text-foreground/60 font-light text-sm">Ghana Institute of Management and Public Administration (GIMPA)</p>
+                  <p className="text-foreground/80 font-light text-sm">Ghana Institute of Management and Public Administration (GIMPA)</p>
                 </div>
                 <div>
                   <h3 className="font-serif text-xl mb-1">First Class Honours, Media and Communication Studies (Public Relations)</h3>
-                  <p className="text-foreground/60 font-light text-sm">Kwame Nkrumah University of Science and Technology (KNUST)</p>
+                  <p className="text-foreground/80 font-light text-sm">Kwame Nkrumah University of Science and Technology (KNUST)</p>
                 </div>
               </div>
             </div>
 
             {/* Professional */}
             <div>
-              <h2 className="text-sm uppercase tracking-widest text-accent font-semibold mb-6 pb-2 border-b border-white/10">
+              <h2 className="text-sm uppercase tracking-widest text-accent font-semibold mb-6 pb-2 border-b border-foreground/10">
                 Experience
               </h2>
-              <p className="text-foreground/80 font-light leading-relaxed mb-6">
+              <p className="text-foreground font-light leading-relaxed mb-6">
                 Professionally, I have built experience across corporate
                 communications, stakeholder engagement, administration, customer
                 experience, executive support, and strategic communication through
@@ -68,8 +68,8 @@ export default function AcademicProfessionalJourneyPage() {
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                 {/* MTN Ghana */}
-                <div className="flex items-center space-x-4 p-4 border border-white/5 bg-white/[0.02] hover:bg-white/5 transition-colors rounded-sm">
-                  <div className="w-12 h-12 bg-white/10 flex-shrink-0 flex items-center justify-center overflow-hidden">
+                <div className="flex items-center space-x-4 p-4 border border-foreground/5 bg-foreground/[0.02] hover:bg-foreground/5 transition-colors rounded-sm">
+                  <div className="w-12 h-12 bg-foreground/10 flex-shrink-0 flex items-center justify-center overflow-hidden">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src="/mtn-logo.png"
@@ -77,16 +77,16 @@ export default function AcademicProfessionalJourneyPage() {
                       className="w-full h-full object-contain p-1"
                       onError={(e) => {
                         e.currentTarget.style.display = 'none';
-                        e.currentTarget.parentElement!.innerHTML = '<span class="font-serif italic text-white/50 text-xs">MTN</span>';
+                        e.currentTarget.parentElement!.innerHTML = '<span class="font-serif italic text-foreground/70 text-xs">MTN</span>';
                       }}
                     />
                   </div>
-                  <span className="font-serif italic text-foreground/90">MTN Ghana</span>
+                  <span className="font-serif italic text-foreground">MTN Ghana</span>
                 </div>
 
                 {/* SLB */}
-                <div className="flex items-center space-x-4 p-4 border border-white/5 bg-white/[0.02] hover:bg-white/5 transition-colors rounded-sm">
-                  <div className="w-12 h-12 bg-white/10 flex-shrink-0 flex items-center justify-center overflow-hidden">
+                <div className="flex items-center space-x-4 p-4 border border-foreground/5 bg-foreground/[0.02] hover:bg-foreground/5 transition-colors rounded-sm">
+                  <div className="w-12 h-12 bg-foreground/10 flex-shrink-0 flex items-center justify-center overflow-hidden">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src="/slb-logo.png"
@@ -94,16 +94,16 @@ export default function AcademicProfessionalJourneyPage() {
                       className="w-full h-full object-cover p-1"
                       onError={(e) => {
                         e.currentTarget.style.display = 'none';
-                        e.currentTarget.parentElement!.innerHTML = '<span class="font-serif italic text-white/50 text-xs">SLB</span>';
+                        e.currentTarget.parentElement!.innerHTML = '<span class="font-serif italic text-foreground/70 text-xs">SLB</span>';
                       }}
                     />
                   </div>
-                  <span className="font-serif italic text-foreground/90">SLB</span>
+                  <span className="font-serif italic text-foreground">SLB</span>
                 </div>
 
                 {/* Bandwidth Global */}
-                <div className="flex items-center space-x-4 p-4 border border-white/5 bg-white/[0.02] hover:bg-white/5 transition-colors rounded-sm">
-                  <div className="w-12 h-12 bg-white/10 flex-shrink-0 flex items-center justify-center overflow-hidden">
+                <div className="flex items-center space-x-4 p-4 border border-foreground/5 bg-foreground/[0.02] hover:bg-foreground/5 transition-colors rounded-sm">
+                  <div className="w-12 h-12 bg-foreground/10 flex-shrink-0 flex items-center justify-center overflow-hidden">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src="https://pbs.twimg.com/profile_images/1768612508837756929/nUT1Lmax_400x400.jpg"
@@ -111,25 +111,25 @@ export default function AcademicProfessionalJourneyPage() {
                       className="w-full h-full object-contain p-1"
                       onError={(e) => {
                         e.currentTarget.style.display = 'none';
-                        e.currentTarget.parentElement!.innerHTML = '<span class="font-serif italic text-white/50 text-xs text-center leading-tight">BWG</span>';
+                        e.currentTarget.parentElement!.innerHTML = '<span class="font-serif italic text-foreground/70 text-xs text-center leading-tight">BWG</span>';
                       }}
                     />
                   </div>
-                  <span className="font-serif italic text-foreground/90">Bandwidth Global</span>
+                  <span className="font-serif italic text-foreground">Bandwidth Global</span>
                 </div>
 
                 {/* Various Leadership Roles */}
-                <div className="flex items-center space-x-4 p-4 border border-white/5 bg-white/[0.02] hover:bg-white/5 transition-colors rounded-sm">
-                  <div className="w-12 h-12 bg-white/10 flex-shrink-0 flex items-center justify-center overflow-hidden">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-white/50">
+                <div className="flex items-center space-x-4 p-4 border border-foreground/5 bg-foreground/[0.02] hover:bg-foreground/5 transition-colors rounded-sm">
+                  <div className="w-12 h-12 bg-foreground/10 flex-shrink-0 flex items-center justify-center overflow-hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-foreground/70">
                       <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
                       <rect width="20" height="14" x="2" y="6" rx="2"></rect>
                     </svg>
                   </div>
-                  <span className="font-serif italic text-foreground/90">Various Leadership Roles</span>
+                  <span className="font-serif italic text-foreground">Various Leadership Roles</span>
                 </div>
               </div>
-              <p className="text-foreground/80 font-light leading-relaxed">
+              <p className="text-foreground font-light leading-relaxed">
                 Whether supporting communication strategies, managing stakeholder
                 relationships, coordinating projects, or building systems that
                 improve efficiency, I am driven by a desire to create clarity,

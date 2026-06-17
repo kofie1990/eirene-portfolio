@@ -39,7 +39,7 @@ export default function MinistryLeadershipPage() {
               Ministry & <br /> Leadership
             </h1>
 
-            <div className="space-y-6 text-foreground/80 font-light text-lg leading-relaxed">
+            <div className="space-y-6 text-foreground font-light text-lg leading-relaxed">
               <p>
                 Ministry is one of the most meaningful aspects of my life and
                 leadership journey.

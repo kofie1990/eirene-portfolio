@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function GO1218Page() {
   return (
-    <main className="min-h-screen bg-[#1c1c1c] text-[#f0f0f0] pt-32 pb-24 selection:bg-[#ff4500] selection:text-white">
+    <main className="min-h-screen bg-background text-foreground pt-32 pb-24 selection:bg-[#ff4500] selection:text-foreground">
       <section className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 md:gap-24 items-center min-h-[70vh]">
           <motion.div
@@ -18,7 +18,7 @@ export default function GO1218Page() {
             <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl mb-8 font-bold tracking-tight">
               GO1218
             </h1>
-            <div className="space-y-6 text-[#f0f0f0]/80 font-light text-lg leading-relaxed">
+            <div className="space-y-6 text-foreground font-light text-lg leading-relaxed">
               <p>
                 GO1218 is a practical automotive solutions venture focused on
                 providing essential car care and convenience products for
@@ -39,7 +39,7 @@ export default function GO1218Page() {
               </p>
             </div>
 
-            <button className="mt-12 px-8 py-4 bg-[#ff4500] text-white uppercase tracking-widest text-sm font-medium hover:bg-[#cc3700] transition-colors rounded-sm">
+            <button className="mt-12 px-8 py-4 bg-[#ff4500] text-foreground uppercase tracking-widest text-sm font-medium hover:bg-[#cc3700] transition-colors rounded-sm">
               Explore Products
             </button>
           </motion.div>

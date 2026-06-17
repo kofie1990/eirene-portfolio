@@ -30,7 +30,7 @@ export default function Hero() {
             </p> */}
             <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl leading-[1.1] mb-8 font-medium">
               Hi,<br />
-              <span className="italic font-light text-accent/80">I'm Eirene.</span>
+              <span className="italic font-light text-accent-dark">I'm Eirene.</span>
             </h1>
           </motion.div>
 
@@ -39,7 +39,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
           >
-            <p className="text-white/70 text-lg md:text-xl font-light leading-relaxed mb-12 max-w-lg">
+            <p className="text-foreground/90 text-lg md:text-xl font-light leading-relaxed mb-12 max-w-lg">
               Communicator. Entrepreneur. Creative. Woman of Faith. Building brands, telling stories, and helping people show up confidently in the world.
             </p>
 
