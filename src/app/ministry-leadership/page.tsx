@@ -20,7 +20,7 @@ export default function MinistryLeadershipPage() {
               <img
                 src="./ministry.jpeg"
                 alt="Ministry & Leadership"
-                className="w-full h-full object-cover grayscale opacity-90 sepia-[0.2]"
+                className="w-full h-full object-cover opacity-90 sepia-[0.2]"
               />
               <div className="absolute inset-0 border-[8px] border-background/20 rounded-t-full rounded-b-md"></div>
             </div>

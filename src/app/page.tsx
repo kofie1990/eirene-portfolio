@@ -21,19 +21,19 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <Link href="/nbn-beauty" className="group block p-8 border border-foreground/5 hover:border-accent/50 hover:bg-foreground/5 transition-all">
             <h3 className="font-serif text-2xl mb-4 group-hover:text-accent transition-colors">NBN Beauty</h3>
-            <p className="text-foreground/70 font-light text-sm">Nature-inspired beauty for healthy hair and glowing skin.</p>
+            <p className="text-foreground/90 font-light text-base">Nature-inspired beauty for healthy hair and glowing skin.</p>
           </Link>
           <Link href="/the-linkedin-fix" className="group block p-8 border border-foreground/5 hover:border-[#0077b5]/50 hover:bg-foreground/5 transition-all">
             <h3 className="font-serif text-2xl mb-4 group-hover:text-[#0077b5] transition-colors">The LinkedIn Fix</h3>
-            <p className="text-foreground/70 font-light text-sm">Positioning you strategically to attract real opportunities.</p>
+            <p className="text-foreground/90 font-light text-base">Positioning you strategically to attract real opportunities.</p>
           </Link>
           <Link href="/ministry-leadership" className="group block p-8 border border-foreground/5 hover:border-[#d4af37]/50 hover:bg-foreground/5 transition-all">
             <h3 className="font-serif text-2xl mb-4 group-hover:text-[#d4af37] transition-colors">Ministry</h3>
-            <p className="text-foreground/70 font-light text-sm">Servant leadership, pastoral care, and church administration.</p>
+            <p className="text-foreground/90 font-light text-base">Servant leadership, pastoral care, and church administration.</p>
           </Link>
           <Link href="/academic-professional-journey" className="group block p-8 border border-foreground/5 hover:border-accent/50 hover:bg-foreground/5 transition-all">
             <h3 className="font-serif text-2xl mb-4 group-hover:text-accent transition-colors">Journey</h3>
-            <p className="text-foreground/70 font-light text-sm">Academic background and professional experiences.</p>
+            <p className="text-foreground/90 font-light text-base">Academic background and professional experiences.</p>
           </Link>
         </div>
       </section>
