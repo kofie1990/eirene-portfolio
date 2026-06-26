@@ -61,7 +61,7 @@ export default function CheckoutModal({ isOpen, onClose, product }: CheckoutModa
         {
           display_name: "Delivery Address",
           variable_name: "delivery_address",
-          value: formData.address,
+          value: formData.address || "Not provided",
         },
         {
           display_name: "GPS Location (Google Maps)",
@@ -103,7 +103,7 @@ export default function CheckoutModal({ isOpen, onClose, product }: CheckoutModa
 
   const handleCheckout = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!formData.name || !formData.email || !formData.phone || !formData.address) {
+    if (!formData.name || !formData.email || !formData.phone) {
       alert("Please fill in all required fields.");
       return;
     }
@@ -209,9 +209,8 @@ export default function CheckoutModal({ isOpen, onClose, product }: CheckoutModa
                   </div>
 
                   <div>
-                    <label className="block text-xs uppercase tracking-widest text-foreground/70 mb-1">Delivery Address</label>
+                    <label className="block text-xs uppercase tracking-widest text-foreground/70 mb-1">Delivery Address (Optional)</label>
                     <textarea
-                      required
                       value={formData.address}
                       onChange={(e) => setFormData({ ...formData, address: e.target.value })}
                       className="w-full bg-transparent border border-foreground/10 p-3 text-foreground text-sm focus:outline-none focus:border-[#c2a878] transition-colors rounded-sm resize-none h-20"
@@ -232,7 +231,7 @@ export default function CheckoutModal({ isOpen, onClose, product }: CheckoutModa
                           ? "GPS Location Added ✓"
                           : isGettingGps
                           ? "Getting Location..."
-                          : "Attach GPS Location"}
+                          : "Attach GPS Location (Optional)"}
                       </span>
                     </button>
                     {gpsLocation && <p className="text-[10px] text-[#c2a878]/70 mt-2 text-center">Your precise location will be sent for easier delivery.</p>}
