@@ -80,7 +80,7 @@ export default function About() {
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="https://media.licdn.com/dms/image/v2/D4D03AQFHobsCzMDYfw/profile-displayphoto-crop_800_800/B4DZmf0XQdJUAI-/0/1759322931397?e=1782950400&v=beta&t=-RiJ6yw5PZuXDHrif78FyQKFnDxtDxCiZmMAHfHiyjM"
+              src="/profile.jpeg"
               alt="Eirene Portrait"
               className="w-full h-full object-cover contrast-125"
             />
