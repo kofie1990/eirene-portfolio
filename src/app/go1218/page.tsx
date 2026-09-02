@@ -45,7 +45,7 @@ export default function GO1218Page() {
               rel="noopener noreferrer"
               className="mt-12 inline-block px-8 py-4 bg-[#ff4500] text-foreground uppercase tracking-widest text-sm font-medium hover:bg-[#cc3700] transition-colors rounded-sm"
             >
-              Explore Products
+              Explore GO1218
             </a>
           </motion.div>
 
@@ -55,13 +55,18 @@ export default function GO1218Page() {
             transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
             className="relative aspect-square md:aspect-[4/5] w-full max-w-lg mx-auto"
           >
-            {/* Abstract/Automotive aesthetic placeholder */}
-            <div className="absolute inset-0 bg-gradient-to-tr from-[#2a2a2a] to-[#111111] rounded-2xl overflow-hidden shadow-2xl flex items-center justify-center">
-               <div className="absolute inset-0 opacity-20 bg-[url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1000&auto=format&fit=crop')] bg-cover bg-center mix-blend-overlay"></div>
-               <div className="text-[#ff4500] font-serif text-3xl font-bold tracking-widest relative z-10 opacity-50">
-                 GO1218
-               </div>
-            </div>
+            <a 
+              href="https://go1218.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="absolute inset-0 bg-gradient-to-tr from-[#2a2a2a] to-[#111111] rounded-2xl overflow-hidden shadow-2xl flex items-center justify-center group"
+            >
+               <img 
+                 src="/logo_white.png" 
+                 alt="GO1218 Logo" 
+                 className="w-1/2 max-w-[200px] h-auto object-contain opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-[cubic-bezier(0.25,1,0.5,1)]" 
+               />
+            </a>
             
             {/* Decorative element */}
             <div className="absolute -bottom-6 -right-6 w-32 h-32 border-r-2 border-b-2 border-[#ff4500]/50 rounded-br-3xl"></div>
