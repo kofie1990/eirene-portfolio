@@ -39,9 +39,14 @@ export default function GO1218Page() {
               </p>
             </div>
 
-            <button className="mt-12 px-8 py-4 bg-[#ff4500] text-foreground uppercase tracking-widest text-sm font-medium hover:bg-[#cc3700] transition-colors rounded-sm">
+            <a 
+              href="https://go1218.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="mt-12 inline-block px-8 py-4 bg-[#ff4500] text-foreground uppercase tracking-widest text-sm font-medium hover:bg-[#cc3700] transition-colors rounded-sm"
+            >
               Explore Products
-            </button>
+            </a>
           </motion.div>
 
           <motion.div

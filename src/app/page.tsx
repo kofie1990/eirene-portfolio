@@ -24,8 +24,38 @@ export default function Home() {
           </div>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 pb-12">
-          <Link href="/nbn-beauty" className="group relative block h-[450px] lg:h-[600px] rounded-3xl overflow-hidden cursor-pointer">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6 pb-12">
+          <Link href="/go1218" className="group relative block h-[250px] sm:h-[350px] lg:h-[600px] rounded-2xl md:rounded-3xl overflow-hidden cursor-pointer">
+            <img 
+              src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1000&auto=format&fit=crop" 
+              alt="GO1218" 
+              className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 ease-[cubic-bezier(0.25,1,0.5,1)] md:grayscale md:group-hover:grayscale-0 md:group-hover:scale-110" 
+            />
+            <div className="absolute inset-0 bg-black/30 md:bg-black/20 md:group-hover:bg-black/10 transition-colors duration-1000" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-100 md:opacity-80 md:group-hover:opacity-100 transition-opacity duration-1000" />
+            
+            <div className="absolute top-4 right-4 md:top-6 md:right-6 w-8 h-8 md:w-12 md:h-12 rounded-full bg-white/20 md:bg-white/10 backdrop-blur-md border border-white/30 md:border-white/20 flex items-center justify-center opacity-100 translate-y-0 md:opacity-0 md:-translate-y-4 md:group-hover:opacity-100 md:group-hover:translate-y-0 transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] delay-100 z-10">
+              <svg className="w-4 h-4 md:w-5 md:h-5 text-white transform rotate-0 md:-rotate-45 md:group-hover:rotate-0 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] delay-150" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </div>
+
+            <div className="absolute inset-0 p-4 md:p-8 flex flex-col justify-end text-white z-10">
+              <div className="transform translate-y-0 md:translate-y-8 md:group-hover:translate-y-0 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]">
+                <div className="flex items-center gap-2 md:gap-3 mb-2 md:mb-3">
+                  <span className="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-[#ff4500] opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-700 md:delay-200"></span>
+                  <h3 className="font-serif text-lg sm:text-2xl md:text-4xl">GO1218</h3>
+                </div>
+                <div className="overflow-hidden">
+                  <p className="font-light text-xs sm:text-sm md:text-base text-white/90 md:text-white/80 opacity-100 transform translate-y-0 md:opacity-0 md:translate-y-full md:group-hover:opacity-100 md:group-hover:translate-y-0 transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] md:delay-150 leading-tight md:leading-relaxed">
+                    Automotive solutions and essential car care for everyday drivers.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </Link>
+
+          <Link href="/nbn-beauty" className="group relative block h-[250px] sm:h-[350px] lg:h-[600px] rounded-2xl md:rounded-3xl overflow-hidden cursor-pointer translate-y-6 sm:translate-y-12 lg:translate-y-12">
             <img 
               src="/nbn_beauty.png" 
               alt="NBN Beauty" 
@@ -34,20 +64,20 @@ export default function Home() {
             <div className="absolute inset-0 bg-black/30 md:bg-black/20 md:group-hover:bg-black/10 transition-colors duration-1000" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-100 md:opacity-80 md:group-hover:opacity-100 transition-opacity duration-1000" />
             
-            <div className="absolute top-6 right-6 w-12 h-12 rounded-full bg-white/20 md:bg-white/10 backdrop-blur-md border border-white/30 md:border-white/20 flex items-center justify-center opacity-100 translate-y-0 md:opacity-0 md:-translate-y-4 md:group-hover:opacity-100 md:group-hover:translate-y-0 transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] delay-100 z-10">
-              <svg className="w-5 h-5 text-white transform rotate-0 md:-rotate-45 md:group-hover:rotate-0 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] delay-150" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <div className="absolute top-4 right-4 md:top-6 md:right-6 w-8 h-8 md:w-12 md:h-12 rounded-full bg-white/20 md:bg-white/10 backdrop-blur-md border border-white/30 md:border-white/20 flex items-center justify-center opacity-100 translate-y-0 md:opacity-0 md:-translate-y-4 md:group-hover:opacity-100 md:group-hover:translate-y-0 transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] delay-100 z-10">
+              <svg className="w-4 h-4 md:w-5 md:h-5 text-white transform rotate-0 md:-rotate-45 md:group-hover:rotate-0 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] delay-150" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
             </div>
 
-            <div className="absolute inset-0 p-8 flex flex-col justify-end text-white z-10">
+            <div className="absolute inset-0 p-4 md:p-8 flex flex-col justify-end text-white z-10">
               <div className="transform translate-y-0 md:translate-y-8 md:group-hover:translate-y-0 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]">
-                <div className="flex items-center gap-3 mb-3">
-                  <span className="w-2 h-2 rounded-full bg-accent opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-700 md:delay-200"></span>
-                  <h3 className="font-serif text-3xl md:text-4xl">NBN Beauty</h3>
+                <div className="flex items-center gap-2 md:gap-3 mb-2 md:mb-3">
+                  <span className="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-accent opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-700 md:delay-200"></span>
+                  <h3 className="font-serif text-lg sm:text-2xl md:text-4xl">NBN Beauty</h3>
                 </div>
                 <div className="overflow-hidden">
-                  <p className="font-light text-white/90 md:text-white/80 opacity-100 transform translate-y-0 md:opacity-0 md:translate-y-full md:group-hover:opacity-100 md:group-hover:translate-y-0 transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] md:delay-150 leading-relaxed">
+                  <p className="font-light text-xs sm:text-sm md:text-base text-white/90 md:text-white/80 opacity-100 transform translate-y-0 md:opacity-0 md:translate-y-full md:group-hover:opacity-100 md:group-hover:translate-y-0 transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] md:delay-150 leading-tight md:leading-relaxed">
                     Nature-inspired beauty for healthy hair and glowing skin.
                   </p>
                 </div>
@@ -55,10 +85,10 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href="/the-linkedin-fix" className="group relative block h-[450px] lg:h-[600px] rounded-3xl overflow-hidden cursor-pointer lg:translate-y-12">
+          <Link href="/the-linkedin-fix" className="group relative block h-[250px] sm:h-[350px] lg:h-[600px] rounded-2xl md:rounded-3xl overflow-hidden cursor-pointer">
             <div className="absolute inset-0 w-full h-full bg-[#1a1a1a] flex items-center justify-center transition-transform duration-1000 ease-[cubic-bezier(0.25,1,0.5,1)] md:group-hover:scale-110">
               <svg 
-                className="w-32 h-32 md:w-40 md:h-40 text-[#0077b5] md:text-white/30 transition-colors duration-1000 md:group-hover:text-[#0077b5]"
+                className="w-16 h-16 sm:w-24 sm:h-24 md:w-40 md:h-40 text-[#0077b5] md:text-white/30 transition-colors duration-1000 md:group-hover:text-[#0077b5]"
                 xmlns="http://www.w3.org/2000/svg" 
                 viewBox="0 0 24 24" 
                 fill="currentColor"
@@ -69,20 +99,20 @@ export default function Home() {
             <div className="absolute inset-0 bg-black/30 md:bg-black/20 md:group-hover:bg-black/10 transition-colors duration-1000" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-100 md:opacity-80 md:group-hover:opacity-100 transition-opacity duration-1000" />
             
-            <div className="absolute top-6 right-6 w-12 h-12 rounded-full bg-white/20 md:bg-white/10 backdrop-blur-md border border-white/30 md:border-white/20 flex items-center justify-center opacity-100 translate-y-0 md:opacity-0 md:-translate-y-4 md:group-hover:opacity-100 md:group-hover:translate-y-0 transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] delay-100 z-10">
-              <svg className="w-5 h-5 text-white transform rotate-0 md:-rotate-45 md:group-hover:rotate-0 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] delay-150" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <div className="absolute top-4 right-4 md:top-6 md:right-6 w-8 h-8 md:w-12 md:h-12 rounded-full bg-white/20 md:bg-white/10 backdrop-blur-md border border-white/30 md:border-white/20 flex items-center justify-center opacity-100 translate-y-0 md:opacity-0 md:-translate-y-4 md:group-hover:opacity-100 md:group-hover:translate-y-0 transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] delay-100 z-10">
+              <svg className="w-4 h-4 md:w-5 md:h-5 text-white transform rotate-0 md:-rotate-45 md:group-hover:rotate-0 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] delay-150" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
             </div>
 
-            <div className="absolute inset-0 p-8 flex flex-col justify-end text-white z-10">
+            <div className="absolute inset-0 p-4 md:p-8 flex flex-col justify-end text-white z-10">
               <div className="transform translate-y-0 md:translate-y-8 md:group-hover:translate-y-0 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]">
-                <div className="flex items-center gap-3 mb-3">
-                  <span className="w-2 h-2 rounded-full bg-[#0077b5] opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-700 md:delay-200"></span>
-                  <h3 className="font-serif text-3xl md:text-4xl">The LinkedIn Fix</h3>
+                <div className="flex items-center gap-2 md:gap-3 mb-2 md:mb-3">
+                  <span className="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-[#0077b5] opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-700 md:delay-200"></span>
+                  <h3 className="font-serif text-lg sm:text-2xl md:text-4xl">The LinkedIn Fix</h3>
                 </div>
                 <div className="overflow-hidden">
-                  <p className="font-light text-white/90 md:text-white/80 opacity-100 transform translate-y-0 md:opacity-0 md:translate-y-full md:group-hover:opacity-100 md:group-hover:translate-y-0 transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] md:delay-150 leading-relaxed">
+                  <p className="font-light text-xs sm:text-sm md:text-base text-white/90 md:text-white/80 opacity-100 transform translate-y-0 md:opacity-0 md:translate-y-full md:group-hover:opacity-100 md:group-hover:translate-y-0 transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] md:delay-150 leading-tight md:leading-relaxed">
                     Positioning you strategically to attract real opportunities.
                   </p>
                 </div>
@@ -90,7 +120,7 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href="/ministry-leadership" className="group relative block h-[450px] lg:h-[600px] rounded-3xl overflow-hidden cursor-pointer">
+          <Link href="/ministry-leadership" className="group relative block h-[250px] sm:h-[350px] lg:h-[600px] rounded-2xl md:rounded-3xl overflow-hidden cursor-pointer translate-y-6 sm:translate-y-12 lg:translate-y-12">
             <img 
               src="/ministry.jpeg" 
               alt="Ministry" 
@@ -99,20 +129,20 @@ export default function Home() {
             <div className="absolute inset-0 bg-black/30 md:bg-black/20 md:group-hover:bg-black/10 transition-colors duration-1000" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-100 md:opacity-80 md:group-hover:opacity-100 transition-opacity duration-1000" />
             
-            <div className="absolute top-6 right-6 w-12 h-12 rounded-full bg-white/20 md:bg-white/10 backdrop-blur-md border border-white/30 md:border-white/20 flex items-center justify-center opacity-100 translate-y-0 md:opacity-0 md:-translate-y-4 md:group-hover:opacity-100 md:group-hover:translate-y-0 transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] delay-100 z-10">
-              <svg className="w-5 h-5 text-white transform rotate-0 md:-rotate-45 md:group-hover:rotate-0 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] delay-150" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <div className="absolute top-4 right-4 md:top-6 md:right-6 w-8 h-8 md:w-12 md:h-12 rounded-full bg-white/20 md:bg-white/10 backdrop-blur-md border border-white/30 md:border-white/20 flex items-center justify-center opacity-100 translate-y-0 md:opacity-0 md:-translate-y-4 md:group-hover:opacity-100 md:group-hover:translate-y-0 transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] delay-100 z-10">
+              <svg className="w-4 h-4 md:w-5 md:h-5 text-white transform rotate-0 md:-rotate-45 md:group-hover:rotate-0 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] delay-150" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
             </div>
 
-            <div className="absolute inset-0 p-8 flex flex-col justify-end text-white z-10">
+            <div className="absolute inset-0 p-4 md:p-8 flex flex-col justify-end text-white z-10">
               <div className="transform translate-y-0 md:translate-y-8 md:group-hover:translate-y-0 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]">
-                <div className="flex items-center gap-3 mb-3">
-                  <span className="w-2 h-2 rounded-full bg-[#d4af37] opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-700 md:delay-200"></span>
-                  <h3 className="font-serif text-3xl md:text-4xl">Ministry</h3>
+                <div className="flex items-center gap-2 md:gap-3 mb-2 md:mb-3">
+                  <span className="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-[#d4af37] opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-700 md:delay-200"></span>
+                  <h3 className="font-serif text-lg sm:text-2xl md:text-4xl">Ministry</h3>
                 </div>
                 <div className="overflow-hidden">
-                  <p className="font-light text-white/90 md:text-white/80 opacity-100 transform translate-y-0 md:opacity-0 md:translate-y-full md:group-hover:opacity-100 md:group-hover:translate-y-0 transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] md:delay-150 leading-relaxed">
+                  <p className="font-light text-xs sm:text-sm md:text-base text-white/90 md:text-white/80 opacity-100 transform translate-y-0 md:opacity-0 md:translate-y-full md:group-hover:opacity-100 md:group-hover:translate-y-0 transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] md:delay-150 leading-tight md:leading-relaxed">
                     Servant leadership, pastoral care, and church administration.
                   </p>
                 </div>
@@ -120,7 +150,7 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href="/academic-professional-journey" className="group relative block h-[450px] lg:h-[600px] rounded-3xl overflow-hidden cursor-pointer lg:translate-y-12">
+          <Link href="/academic-professional-journey" className="group relative block h-[250px] sm:h-[350px] lg:h-[600px] rounded-2xl md:rounded-3xl overflow-hidden cursor-pointer">
             <img 
               src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=800&auto=format&fit=crop" 
               alt="Journey" 
@@ -129,20 +159,20 @@ export default function Home() {
             <div className="absolute inset-0 bg-black/30 md:bg-black/20 md:group-hover:bg-black/10 transition-colors duration-1000" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-100 md:opacity-80 md:group-hover:opacity-100 transition-opacity duration-1000" />
             
-            <div className="absolute top-6 right-6 w-12 h-12 rounded-full bg-white/20 md:bg-white/10 backdrop-blur-md border border-white/30 md:border-white/20 flex items-center justify-center opacity-100 translate-y-0 md:opacity-0 md:-translate-y-4 md:group-hover:opacity-100 md:group-hover:translate-y-0 transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] delay-100 z-10">
-              <svg className="w-5 h-5 text-white transform rotate-0 md:-rotate-45 md:group-hover:rotate-0 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] delay-150" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <div className="absolute top-4 right-4 md:top-6 md:right-6 w-8 h-8 md:w-12 md:h-12 rounded-full bg-white/20 md:bg-white/10 backdrop-blur-md border border-white/30 md:border-white/20 flex items-center justify-center opacity-100 translate-y-0 md:opacity-0 md:-translate-y-4 md:group-hover:opacity-100 md:group-hover:translate-y-0 transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] delay-100 z-10">
+              <svg className="w-4 h-4 md:w-5 md:h-5 text-white transform rotate-0 md:-rotate-45 md:group-hover:rotate-0 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] delay-150" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
             </div>
 
-            <div className="absolute inset-0 p-8 flex flex-col justify-end text-white z-10">
+            <div className="absolute inset-0 p-4 md:p-8 flex flex-col justify-end text-white z-10">
               <div className="transform translate-y-0 md:translate-y-8 md:group-hover:translate-y-0 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]">
-                <div className="flex items-center gap-3 mb-3">
-                  <span className="w-2 h-2 rounded-full bg-white opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-700 md:delay-200"></span>
-                  <h3 className="font-serif text-3xl md:text-4xl">Journey</h3>
+                <div className="flex items-center gap-2 md:gap-3 mb-2 md:mb-3">
+                  <span className="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-white opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-700 md:delay-200"></span>
+                  <h3 className="font-serif text-lg sm:text-2xl md:text-4xl">Journey</h3>
                 </div>
                 <div className="overflow-hidden">
-                  <p className="font-light text-white/90 md:text-white/80 opacity-100 transform translate-y-0 md:opacity-0 md:translate-y-full md:group-hover:opacity-100 md:group-hover:translate-y-0 transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] md:delay-150 leading-relaxed">
+                  <p className="font-light text-xs sm:text-sm md:text-base text-white/90 md:text-white/80 opacity-100 transform translate-y-0 md:opacity-0 md:translate-y-full md:group-hover:opacity-100 md:group-hover:translate-y-0 transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] md:delay-150 leading-tight md:leading-relaxed">
                     Academic background and professional experiences.
                   </p>
                 </div>
